@@ -1,0 +1,84 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 1000000
+Simulation Instructions: 10000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+CPU 0 runs /mnt/Shivam/SelfLearning/COA_VLSI/conferences/CAWS2020/ChampSim-CAWS/dpc3_traces/champsim.trace.gz
+CPU 0 Bimodal branch predictor
+*** Reached end of trace for Core: 0 Repeating trace: /mnt/Shivam/SelfLearning/COA_VLSI/conferences/CAWS2020/ChampSim-CAWS/dpc3_traces/champsim.trace.gz
+
+Warmup complete CPU 0 instructions: 1000001 cycles: 417962 (Simulation time: 0 hr 0 min 3 sec) 
+
+*** Reached end of trace for Core: 0 Repeating trace: /mnt/Shivam/SelfLearning/COA_VLSI/conferences/CAWS2020/ChampSim-CAWS/dpc3_traces/champsim.trace.gz
+*** Reached end of trace for Core: 0 Repeating trace: /mnt/Shivam/SelfLearning/COA_VLSI/conferences/CAWS2020/ChampSim-CAWS/dpc3_traces/champsim.trace.gz
+*** Reached end of trace for Core: 0 Repeating trace: /mnt/Shivam/SelfLearning/COA_VLSI/conferences/CAWS2020/ChampSim-CAWS/dpc3_traces/champsim.trace.gz
+*** Reached end of trace for Core: 0 Repeating trace: /mnt/Shivam/SelfLearning/COA_VLSI/conferences/CAWS2020/ChampSim-CAWS/dpc3_traces/champsim.trace.gz
+*** Reached end of trace for Core: 0 Repeating trace: /mnt/Shivam/SelfLearning/COA_VLSI/conferences/CAWS2020/ChampSim-CAWS/dpc3_traces/champsim.trace.gz
+*** Reached end of trace for Core: 0 Repeating trace: /mnt/Shivam/SelfLearning/COA_VLSI/conferences/CAWS2020/ChampSim-CAWS/dpc3_traces/champsim.trace.gz
+*** Reached end of trace for Core: 0 Repeating trace: /mnt/Shivam/SelfLearning/COA_VLSI/conferences/CAWS2020/ChampSim-CAWS/dpc3_traces/champsim.trace.gz
+*** Reached end of trace for Core: 0 Repeating trace: /mnt/Shivam/SelfLearning/COA_VLSI/conferences/CAWS2020/ChampSim-CAWS/dpc3_traces/champsim.trace.gz
+*** Reached end of trace for Core: 0 Repeating trace: /mnt/Shivam/SelfLearning/COA_VLSI/conferences/CAWS2020/ChampSim-CAWS/dpc3_traces/champsim.trace.gz
+Heartbeat CPU 0 instructions: 10000000 cycles: 8454646 heartbeat IPC: 1.18278 cumulative IPC: 1.11986 (Simulation time: 0 hr 0 min 26 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: /mnt/Shivam/SelfLearning/COA_VLSI/conferences/CAWS2020/ChampSim-CAWS/dpc3_traces/champsim.trace.gz
+Finished CPU 0 instructions: 10000001 cycles: 8928939 cumulative IPC: 1.11995 (Simulation time: 0 hr 0 min 28 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 1.11995 instructions: 10000001 cycles: 8928939
+L1D TOTAL     ACCESS:    2351430  HIT:    2282402  MISS:      69028
+L1D LOAD      ACCESS:    1490067  HIT:    1436739  MISS:      53328
+L1D RFO       ACCESS:     861363  HIT:     845663  MISS:      15700
+L1D PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1D AVERAGE MISS LATENCY: 18.8119 cycles
+L1I TOTAL     ACCESS:    1695043  HIT:    1687634  MISS:       7409
+L1I LOAD      ACCESS:    1695043  HIT:    1687634  MISS:       7409
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I AVERAGE MISS LATENCY: 19.8773 cycles
+L2C TOTAL     ACCESS:      93364  HIT:      83164  MISS:      10200
+L2C LOAD      ACCESS:      60736  HIT:      52277  MISS:       8459
+L2C RFO       ACCESS:      15700  HIT:      13989  MISS:       1711
+L2C PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L2C WRITEBACK ACCESS:      16928  HIT:      16898  MISS:         30
+L2C PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L2C AVERAGE MISS LATENCY: 29.9118 cycles
+LLC TOTAL     ACCESS:      12050  HIT:      12050  MISS:          0
+LLC LOAD      ACCESS:       8459  HIT:       8459  MISS:          0
+LLC RFO       ACCESS:       1711  HIT:       1711  MISS:          0
+LLC PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+LLC WRITEBACK ACCESS:       1880  HIT:       1880  MISS:          0
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+LLC AVERAGE MISS LATENCY: -nan cycles
+Major fault: 0 Minor fault: 247
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:          0
+ DBUS_CONGESTED:          0
+ WQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:          0  FULL:          0
+
+ AVG_CONGESTED_CYCLE: -
+
+CPU 0 Branch Prediction Accuracy: 95.9617% MPKI: 6.7206 Average ROB Occupancy at Mispredict: 45.422
+
+Branch types
+NOT_BRANCH: 8335464 83.3546%
+BRANCH_DIRECT_JUMP: 73459 0.73459%
+BRANCH_INDIRECT: 21510 0.2151%
+BRANCH_CONDITIONAL: 1466668 14.6667%
+BRANCH_DIRECT_CALL: 50620 0.5062%
+BRANCH_INDIRECT_CALL: 690 0.0069%
+BRANCH_RETURN: 51250 0.5125%
+BRANCH_OTHER: 0 0%
+
