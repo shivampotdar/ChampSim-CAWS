@@ -21,3 +21,11 @@
 
 ### prefetcher/no.(l1d,l1i,l2c,llc)_pref 
 1. remove that var, literally ;)
+
+### For the exercise
+
+- Pin 3.2 is not compatible with Ubuntu 20.04 (Linux 5.0). After numerous attempts of playing around with parameters like -injection and recompiling the .so files, and trying on different systems with Ubuntu 18.04 and AMI Linux (AWS EC2), I finally upgraded to Pin 3.17 (https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.17-98314-g0c048d619-gcc-linux.tar.gz) and then refactored the `champsim_tracer.cpp` file to work with the new version.
+
+- With this change, the trace and simulation runs successfully.
+
+- IPC value 1.11995
